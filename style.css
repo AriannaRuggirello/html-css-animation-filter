@@ -21,6 +21,7 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: all 2s ease;
 }
 .ex-5-square {
     margin: 20px;

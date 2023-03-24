@@ -37,6 +37,7 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s ease-in-out 1s;
 }
 .ex-10-icon {
     font-size: 60px;

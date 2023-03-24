@@ -33,3 +33,18 @@
     -webkit-filter: blur(0px);
 }
 
+.ex-8-img{
+    transition: all 2s ease-in;
+}
+
+.ex-8-img:hover{
+    border-radius: 20%;
+    filter: invert(.4) sepia(.7)
+
+}
+
+.ex-9-img:hover{
+    border-radius: 10%;
+    filter: sepia(.7) grayscale(.3);
+    transform: scale(1.5);
+}

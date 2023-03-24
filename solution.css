@@ -48,3 +48,59 @@
     filter: sepia(.7) grayscale(.3);
     transform: scale(1.5);
 }
+
+.ex-10-icon {
+    animation: rotation 2s linear infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* esercizio 11 */
+.ex-11-icon:hover {
+    animation: timeRotation 3s linear;
+}
+@keyframes timeRotation {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: topWhiteBar 3s linear;
+}
+@keyframes topWhiteBar {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottomWhiteBar 3s linear;
+}
+@keyframes bottomWhiteBar {
+    0% {
+        right: 0;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 0;
+    }
+}
